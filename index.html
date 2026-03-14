@@ -1,0 +1,171 @@
+<div style="max-width:650px;margin:auto;font-family:Segoe UI,Arial;background:#111;border-radius:14px;padding:25px;color:#fff;box-shadow:0 0 25px rgba(0,0,0,0.6);border-top:4px solid #ff69b4;">
+
+<h2 style="text-align:center;color:#ff69b4;">🌸 Arx Anime Hub | Premium Access 🌸</h2>
+
+<p style="text-align:center;color:#bbb;font-size:14px;">
+Welcome to the inner circle. Unlock exclusive content, faster updates and premium perks.
+</p>
+
+<div style="background:#1b1b22;border-radius:10px;padding:20px;margin-top:20px;border:1px solid #ff69b4;text-align:center;">
+
+<h3 style="color:#ff69b4;margin-top:0;">💰 Session Price</h3>
+
+<div id="priceValue" style="font-size:32px;font-weight:bold;">--</div>
+
+<div id="currencyValue" style="font-size:13px;color:#bbb;margin-top:4px;"></div>
+
+<div style="font-size:12px;color:#ff9fcf;margin-top:6px;">
+Price locked for this session
+</div>
+
+</div>
+
+<div style="background:#1b1b22;border-radius:10px;padding:18px;margin-top:20px;border:1px solid #ff69b4;">
+
+<h3 style="color:#ff69b4;margin-top:0;">💳 Fast & Secure Checkout</h3>
+
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+
+<tr style="background:#24242c;">
+<th style="padding:10px;text-align:left;">Method</th>
+<th style="padding:10px;text-align:left;">Payment Details</th>
+</tr>
+
+<tr>
+<td style="padding:10px;">Binance ID</td>
+<td style="padding:10px;font-weight:bold;">1160690495</td>
+</tr>
+
+<tr style="background:#1c1c24;">
+<td style="padding:10px;">Binance Link</td>
+<td style="padding:10px;">
+<a href="https://s.binance.com/g7SbQjMi" target="_blank"
+style="background:#ff69b4;color:#fff;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;">
+Click to Pay
+</a>
+</td>
+</tr>
+
+<tr>
+<td style="padding:10px;">Buy Me A Coffee</td>
+<td style="padding:10px;">
+<a href="https://buymeacoffee.com/prime.support.us" target="_blank"
+style="background:#ffdd00;color:#000;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;">
+Support via BMC
+</a>
+</td>
+</tr>
+
+<tr style="background:#1c1c24;">
+<td style="padding:10px;">Unique UPI NO.</td>
+<td style="padding:10px;font-weight:bold;">19974108</td>
+</tr>
+
+</table>
+
+</div>
+
+<div style="margin-top:20px;background:#1b1b22;padding:15px;border-radius:10px;border-left:3px solid #ff69b4;">
+
+<b>Note for Supporters</b>
+
+<p style="font-size:13px;color:#bbb;">
+Our pricing system is dynamic to maintain platform stability.  
+The amount shown during checkout is the final price for that specific session.  
+Please complete payment with the exact amount displayed.
+</p>
+
+</div>
+
+<div style="margin-top:25px;">
+
+<h3 style="color:#ff69b4;">📥 After Your Payment</h3>
+
+<p style="font-size:14px;color:#bbb;">
+Send your payment proof (screenshot) to our support team for verification.
+</p>
+
+<div style="text-align:center;margin-top:10px;">
+
+<a href="https://t.me/ecchi_girlbot"
+style="display:inline-block;background:#24A1DE;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;margin:5px;">
+🤖 Start Verification
+</a>
+
+<a href="https://t.me/ArxHub"
+style="display:inline-block;background:#ff69b4;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;margin:5px;">
+👩‍💻 Direct Support
+</a>
+
+</div>
+
+</div>
+
+<div style="margin-top:25px;border-top:1px solid #333;padding-top:15px;">
+
+<h3 style="color:#ff69b4;">🌟 Stay Connected</h3>
+
+<p style="font-size:14px;color:#bbb;">
+Don't miss daily updates and exclusive previews.
+</p>
+
+<div style="text-align:center;margin-top:10px;">
+
+<a href="https://t.me/arxanimehub" target="_blank"
+style="display:inline-block;background:#0088cc;color:#fff;padding:9px 16px;border-radius:8px;text-decoration:none;margin:5px;">
+Telegram Channel
+</a>
+
+<a href="https://www.facebook.com/share/1TKZYCd679/" target="_blank"
+style="display:inline-block;background:#1877f2;color:#fff;padding:9px 16px;border-radius:8px;text-decoration:none;margin:5px;">
+Facebook Page
+</a>
+
+</div>
+
+</div>
+
+<div style="margin-top:25px;background:#1b1b22;padding:15px;border-radius:10px;font-size:13px;color:#bbb;">
+
+<h4 style="color:#ff69b4;margin-top:0;">⚠️ Quick Guidelines</h4>
+
+<ul style="padding-left:18px;margin:0;">
+<li>Minimum and maximum limits apply to transactions.</li>
+<li>Access is usually granted within minutes after verification.</li>
+<li>No refunds once premium content is accessed.</li>
+</ul>
+
+
+</div>
+
+<script>
+
+function generatePrice(){
+
+const options = [
+{symbol:"$", currency:"USD", min:9, max:11},
+{symbol:"$", currency:"USDT", min:9, max:11},
+{symbol:"₹", currency:"INR", min:979, max:1079}
+];
+
+const pick = options[Math.floor(Math.random()*options.length)];
+
+const price = Math.floor(
+Math.random() * (pick.max - pick.min + 1)
+) + pick.min;
+
+document.getElementById("priceValue").innerText =
+pick.symbol + price;
+
+document.getElementById("currencyValue").innerText =
+"Payable in " + pick.currency;
+
+}
+
+generatePrice();
+
+</script>
+
+</div>
+
+</div>
